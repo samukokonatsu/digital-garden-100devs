@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    color: white;
+}
+
+img {
+    float: right;
+    width: 30%;
+}
+
+section {
+    border: 5px solid lightgreen;
+    margin: 30px;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+}
