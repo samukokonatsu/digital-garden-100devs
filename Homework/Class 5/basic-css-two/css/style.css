@@ -1,0 +1,40 @@
+/* Please make the li's blue, underlined, 15px, and have a gray background
+
+Please make this section have a height of 300px, a light purple background, a gold border that is 5px thick
+
+Please make this h1 30px, gold, centered, and use the Source Sans Pro Font
+
+Please make this footer have a dark brown background, 300px in height, and only 70% width.
+
+Please make this text have a line through it
+*/
+
+li {
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+    background: gray;
+}
+
+section {
+    height: 300px;
+    background: plum;
+    border: 4px solid gold;
+}
+
+h1 {
+    font-size: 30px;
+    color: gold;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+    background: rgb(124, 75, 75);
+    height: 300px;
+    width: 70%;
+}
+
+h2 {
+    text-decoration: line-through;
+}

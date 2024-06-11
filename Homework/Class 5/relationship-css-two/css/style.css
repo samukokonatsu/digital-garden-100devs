@@ -6,3 +6,23 @@
 /* Please Make only Hufflepuff Gold */
 
 /* Please keep Hufflepuff Gold and make ONLY Unicorn Gray  */
+
+section > h2 {
+    color: blue;
+}
+
+section h2 + h2 {
+    color: blueviolet;
+}
+
+
+section article > h2 + h2 {
+    color: gold;
+}
+
+section article > h2 {
+    color: gray;
+}
+
+
+
