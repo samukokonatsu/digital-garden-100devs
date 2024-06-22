@@ -1,7 +1,35 @@
 body {
     font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
 
-.cover {
-    width: 50%;
+nav {
+    color: azure;
+    font-weight: 700;
+    border-bottom: 0.5px solid rgb(192,192,192);
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding-bottom: 20px;
+}
+
+.journal-cover {
+    width: 20%;
+}
+
+.logo {
+    width: 30px;
+}
+
+footer {
+    padding: 0 5%;
+}
+
+footer ul li {
+    display: inline;
 }
