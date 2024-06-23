@@ -37,3 +37,7 @@ footer {
 footer ul li {
     display: inline;
 }
+
+.plant {
+    position: inherit;
+}
