@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+}
+
+header,footer {
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+
+.topSections {
+    border: 2px solid black;
+    float: left;
+    height: 150px;
+    width: 33.33%;
+}
+
+.bottomSections {
+    border: 2px solid black;
+    float: left;
+    height: 150px;
+    width: 50%;
+}
