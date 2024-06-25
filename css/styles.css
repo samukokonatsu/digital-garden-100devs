@@ -6,8 +6,26 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #228B22;
+}
+
 h1 {
     font-size: 30px;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 nav {
@@ -22,8 +40,19 @@ nav ul li {
     padding-bottom: 20px;
 }
 
+.banner {
+    padding-top: 30px;
+    border-bottom: 0.5px solid rgb(192,192,192);
+}
+
+.display {
+    margin-top: 40px;
+}
+
 .journal-cover {
-    width: 20%;
+    height: 130px;
+    width: 200px;
+    border-radius: 10px;
 }
 
 .logo {
@@ -39,5 +68,15 @@ footer ul li {
 }
 
 .plant {
-    position: inherit;
+    width: 50%;
+}
+
+.pending {
+    height: 500px;
+    padding: 50px;
+}
+
+.img-cat {
+    height: 300px;
+    margin-bottom: 20px;
 }
