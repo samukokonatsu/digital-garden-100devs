@@ -10,3 +10,14 @@ header,footer {
     width: 100%;
     clear: both;
 }
+
+section {
+    border: 2px solid rgb(210, 215, 211);
+    float: left;
+    height: 300px;
+    width: 20%;
+}
+
+section.second {
+    width: 40%;
+}
