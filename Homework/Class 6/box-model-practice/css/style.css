@@ -1,7 +1,34 @@
 /* Please make the h1 30px, with a little padding on the left, and thin red border */
 
+h1 {
+    font-size: 30px;
+    padding-left: 10px;
+    border: 1px solid red;
+}
+
 /* Please make the h2 25px, with padding on top/bottom, a thick gold border, and margin on the top/bottom */
+
+h2 {
+    font-size: 25px;
+    border: 20px solid gold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
 
 /* Please make the spans have a thin black border, a little padding, and blue */
 
+span {
+    border: 1px solid black;
+    color: blue;
+    padding: 10px;
+}
+
 /* Please make the section 25% width, 200px tall, centered, and with a thin purple border */
+
+section {
+    height: 200px;
+    width: 25%;
+    text-align: center;
+    border: 1px solid purple;
+}
