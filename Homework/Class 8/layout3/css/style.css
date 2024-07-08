@@ -22,7 +22,12 @@
 /*******************************************/
 
 body {
+  margin: 0;
+}
 
+a {
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -30,7 +35,27 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+  background: black;
+  color: white;
+  text-align: center;
+}
 
+nav {
+  background: black;
+  color: white;
+  float: left;
+  height: 60px;
+  width: 80%;
+  padding: 5px;
+}
+
+nav + section {
+  background: black;
+  color: white;
+  float: left;
+  height: 60px;
+  width: 20%;
+  padding: 5px;
 }
 
 footer {
@@ -40,3 +65,11 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  color: white;
+  border-right: 2px solid gray;
+  text-decoration: none;
+}
