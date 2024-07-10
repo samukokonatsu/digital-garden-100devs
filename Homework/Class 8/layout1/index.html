@@ -6,13 +6,63 @@
   	<meta name="keywords" content="one, two, three">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Blank Template</title>
+		<title>Khan Academy Layout</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+
+		<header>
+			<nav>
+				<section class="header">
+					<form>
+						<label for="courses"></label>
+						<select name="courses" id="courses">
+							<option value="courses" disabled selected>Courses</option>
+							<option value="100devs">100Devs</option>
+							<option value="fcc">Free Code Camp</option>
+							<option value="tod">The Odin Project</option>
+						</select>
+					</form>
+					<form>
+						<input type="search" placeholder="Search">
+						<button type="submit">Icon</button>
+					</form>
+				</section>
+				<section class="header">
+					<img src="images/khan-academy-logo.jpeg" alt="khan-academy-logo">
+				</section>
+				<section class="header">
+					<ul>
+						<li><a href="#">Donate</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Sign Up</a></li>
+					</ul>
+				</section>
+			</nav>
+		</header>
+
+		<section class="body">
+			<div class="info">
+				<img src="images/khan-kids-learning.jpeg" alt="khan-kids-learning">
+			</div>
+			<div class="info">
+				<h1>For every student, every classroom. Real results.</h1>
+				<p>We're a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
+				<ul>
+					<li><a href="#">Learners</a></li>
+					<li><a href="#">Teachers</a></li>
+					<li><a href="#">Districts</a></li>
+					<li><a href="#">Parents</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="body">
+			<h2>Why Khan Academy works</h2>
+		</section>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

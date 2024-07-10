@@ -22,21 +22,71 @@
 /*******************************************/
 
 body {
-
+  margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+.body a {
+  color: white;
+}
+
+select {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  display: inline;
+}
+
+section {
+  text-align: center;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+  height: 2.5em;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  padding: 0 40px;
+  margin: 20px;
 }
 
 footer {
 
 }
 
+.header {
+  float: left;
+  width: 33.33%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+ul li {
+  display: inline;
+  list-style-type: none;
+}
+.body ul li {
+  background: blue;
+  color: white; 
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.info {
+  float: left;
+  width: 50%;
+}
+
+.body {
+  width: 100%;
+  clear: both;
+}
