@@ -90,3 +90,9 @@ ul li {
   width: 100%;
   clear: both;
 }
+
+.second {
+  height: 200px;
+  background: lightgrey;
+  padding: 20px;
+}
