@@ -22,15 +22,30 @@
 /*******************************************/
 
 body {
-
+  margin: 15px;  
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+.page {
+  width: 100%;
+}
+
+section.navigation {
+  clear: both;
+  float: left;
+  width: 20%;
+  position: fixed;
+}
+
+section.feed {
+  clear: both;
+  float: right;
+  width: 80%;
+  position: relative;
 }
 
 footer {
@@ -40,3 +55,7 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+nav ul li {
+  list-style-type: none;
+}
