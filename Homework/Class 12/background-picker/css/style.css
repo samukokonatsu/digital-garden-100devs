@@ -28,18 +28,21 @@ ul{
 }
 li{
   width: 94px;
-  height: 65px;
+  height: 48.5px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 #purple{
-  background: rgba(241,63,247,1);
+  background: rgb(189, 92, 189);
 }
 #green{
-  background: rgba(0,253,81,1);
+  background: lightgreen;
 }
 #blue{
-  background: rgba(0,254,255);
+  background: rgb(94, 94, 134);
+}
+#coral{
+  background: lightcoral;
 }
