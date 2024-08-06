@@ -26,28 +26,40 @@ function partyCoral() {
     document.querySelector('body').style.color = 'white'
   }
 
+
+
 // class, weekend, boring code
+
+// Event Listener
 
 document.querySelector('#check').addEventListener('click', check)
 
-function check() {
+//Function
+
+function check(){
 
   const day = document.querySelector('#day').value.toLowerCase();
-  const placeToSee = document.querySelector('#placeToSee');
+  const placeToSee = document.querySelector('#placeToSee')
 
-  //Conditionals go here
+//Conditionals
   if (day === 'tuesday' || day === 'thursday') {
-    placeToSee.textContent = 'Class Day!'
+    placeToSee.textContent = "Class day!"
   }
-    
+
   else if (day === 'saturday' || day === 'sunday') {
-    placeToSee.textContent = 'Weekend!'
+    placeToSee.textContent = "Weekend!"
   }
-    
+
+  else if (day === 'monday' || day === 'wednesday' || day === 'friday') {
+    placeToSee.textContent = "Boooring!"
+  }
+
   else {
-    placeToSee.textContent = 'Boooring!'
+    placeToSee.textContent = "Please enter valid day!"
   }
 }
+
+
 
 
 
@@ -59,6 +71,7 @@ document.querySelector('#pumpkin').addEventListener('click', makeZero)
 document.querySelector('#dominosPizza').addEventListener('click', jumanji)
 document.querySelector('#zebra').addEventListener('click', add9)
 document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
+document.querySelector('#steez').addEventListener('click', add47)
 
 function makeZero() {
   total = 0
@@ -77,5 +90,10 @@ function add9() {
 
 function sub2() {
   total = total - 2
+  document.querySelector('#placeToPutResult').innerHTML = total
+}
+
+function add47() {
+  total = total + 47
   document.querySelector('#placeToPutResult').innerHTML = total
 }

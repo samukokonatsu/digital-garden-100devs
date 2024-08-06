@@ -1,21 +1,29 @@
+// Event Listener
+
 document.querySelector('#check').addEventListener('click', check)
 
-function check() {
+//Function
+
+function check(){
 
   const day = document.querySelector('#day').value.toLowerCase();
-  const placeToSee = document.querySelector('#placeToSee');
+  const placeToSee = document.querySelector('#placeToSee')
 
-  //Conditionals go here
+//Conditionals
   if (day === 'tuesday' || day === 'thursday') {
-    placeToSee.textContent = 'Class Day!'
+    placeToSee.textContent = "Class day!"
   }
-    
+
   else if (day === 'saturday' || day === 'sunday') {
-    placeToSee.textContent = 'Weekend!'
+    placeToSee.textContent = "Weekend!"
   }
-    
+
+  else if (day === 'monday' || day === 'wednesday' || day === 'friday') {
+    placeToSee.textContent = "Boooring!"
+  }
+
   else {
-    placeToSee.textContent = 'Boooring!'
+    placeToSee.textContent = "Please enter valid day!"
   }
 }
 
